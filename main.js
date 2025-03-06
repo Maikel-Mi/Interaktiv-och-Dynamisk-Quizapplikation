@@ -35,7 +35,7 @@ function startQuiz(category) {
     document.getElementById("quiz-screen").classList.remove("hidden");
     showQuestion();
 }
-
+// hämtar funktionen showQuestions och skapar knappar för varje alternativ och lopar igenom alternativerna för att spara svaret i en ny array
 function showQuestion() {
     const questionData = questions[currentCategory][currentQuestionIndex];
     document.getElementById("question").innerText = questionData.question;

@@ -43,7 +43,7 @@ body {
     font-size: 16px;
     cursor: pointer;
     color: black;
-    background-color:rgb(51, 146, 235);
+    background-color: rgb(51, 146, 235);
 }
 
 .vetenskap:hover {
@@ -64,7 +64,7 @@ body {
     cursor: pointer;
     color: black;
     background-color: rgb(58, 171, 58);
-    
+
 }
 
 .geografi:hover {
@@ -135,16 +135,6 @@ body {
     border-color: black;
 }
 
-.correct-answer {
-    background-color: #4CAF50 !important;
-    color: white !important;
-}
-
-.wrong-answer {
-    background-color: #F44336 !important;
-    color: white !important;
-}
-
 .disabled {
     pointer-events: none;
 }
@@ -173,6 +163,7 @@ body {
     from {
         transform: translateY(-10vh) rotate(0deg);
     }
+
     to {
         transform: translateY(100vh) rotate(360deg);
     }
